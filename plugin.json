@@ -1,0 +1,40 @@
+{
+  "name": "descant",
+  "version": "0.1.2",
+  "audience": "customer",
+  "skills": [
+    {
+      "name": "decide-whether-to-retry-a-run",
+      "description": "A run ended and you are considering trying again. Work out whether a retry reaches a different ending or reproduces the same one, what it costs, and — where it is the right move — start it and confirm it took.",
+      "operations": [
+        "customer.runs.list",
+        "customer.runs.get",
+        "customer.runs.cancel"
+      ],
+      "path": "skills/decide-whether-to-retry-a-run"
+    },
+    {
+      "name": "find-out-why-a-run-is-waiting",
+      "description": "A run started and then stopped moving. Work out whether it is waiting on YOU or on a limit clearing, and finish either by doing the one thing that releases it or by knowing that waiting is correct and roughly how long.",
+      "operations": [
+        "customer.repos.list",
+        "customer.runs.list",
+        "customer.runs.get"
+      ],
+      "path": "skills/find-out-why-a-run-is-waiting"
+    },
+    {
+      "name": "find-out-why-an-issue-is-not-being-picked",
+      "description": "Work out why a repository is quiet — an issue you expected to be worked on has not been started — and either fix the cause or state which one it is.",
+      "operations": [
+        "customer.repos.list",
+        "customer.repos.poller-status",
+        "customer.repos.config",
+        "customer.repos.poller-diagnostics",
+        "customer.runs.list",
+        "customer.repos.update"
+      ],
+      "path": "skills/find-out-why-an-issue-is-not-being-picked"
+    }
+  ]
+}
