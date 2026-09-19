@@ -1,0 +1,9 @@
+c68dcdf8e8d55899817e3e3d63844318f178b26752d7f18d0d4d47904ab21183  ./README.md
+06cfbad2c344993ee3f214c670d1fb76a0fee0134b9f87b4ab623fe196d8b249  ./mcp.json
+6ad42c1c04ff80a7163908f7a027339216e24362184ae22cd01357a31eeafafe  ./plugin.json
+e5cc7d53bf2a782ddf805a8d7580853d93a27cbd34522e497c0b2efc46c46618  ./skills/decide-whether-to-retry-a-run/SKILL.md
+ff1bc3039165fbc4abde304d2e2d105886d921a6b39e15d59e68b32b4a2ee607  ./skills/find-out-why-a-run-is-waiting/SKILL.md
+a11df9354ff4c66b32574c7d9cb880112a3688cd64f63d90c2d3fe9b18bc6625  ./skills/find-out-why-an-issue-is-not-being-picked/SKILL.md
+fe800a6dc6ae46d3e74b25c65922b51d58851de97c93e9f3d4f3d04c7c645ef5  ./skills/grant-and-revoke-access/SKILL.md
+242ed2b5d01f146bfebdc26871d1499f238c337ebb71a6d016b6a6641b620804  ./skills/onboard-a-repository-and-confirm-it-is-working/SKILL.md
+021e9390ea9792528ab1f88f1369e90393241e96ff3a73c78f38e246e883523e  ./skills/read-a-runs-status-and-timeline/SKILL.md
