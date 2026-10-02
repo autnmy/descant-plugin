@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "descant": {
+      "command": "descant",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}
